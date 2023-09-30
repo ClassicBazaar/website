@@ -1,0 +1,30 @@
+* {
+    scroll-behavior: smooth;
+}
+#home {
+    height: 100vh;
+    background: url(./photos/IMG_3769.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home-logo {
+    margin-top: 8em;
+}
+#home-logo-text {
+    margin-top: 1em;
+}
+#featured-product {
+    background-color: #404040;
+}
+textarea::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+#select::-webkit-scrollbar {
+    display: none;
+}
+.details-section::-webkit-scrollbar{
+    display: none;
+}

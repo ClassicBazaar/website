@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./photos/IWDY5554.JPG" class="rounded-circle" type="image/x-icon" />
+        <title>classic bazaar</title>
+        <link rel="stylesheet" href="./css files/style.css" />
+        <link rel="stylesheet" href="./files/css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="text-white position-fixed" style="width: 100%; background-color: rgb(0 0 0 / 50%); z-index: 12">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 p-3 ps-5 col-8">
+                        <!-- logo -->
+                        <a href="#home ./index.html"
+                            ><img
+                                src="./photos/IWDY5554.JPG"
+                                alt=""
+                                style="width: 2em; position: absolute; top: 1.1em; left: 2.5em"
+                                class="rounded-circle"
+                            />
+                        </a>
+                        <!-- brand name -->
+                        <h2 style="margin-left: 1.2em">
+                            <a href="index.html" class="text-decoration-none">
+                                <h4 class="text-light">Classic Bazaar</h4>
+                            </a>
+                        </h2>
+                    </div>
+                    <!-- nav bar -->
+                    <div class="col-md-6 col-4">
+                        <nav class="navbar navbar-expand-lg navbar-dark m-2">
+                            <div class="container-fluid">
+                                <!-- overflow button -->
+                                <button
+                                    class="navbar-toggler ml-auto ms-auto"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <!-- nav items -->
+                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#featured-product">Featured</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="products.html">products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#footer">Feedback</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- body -->
+        <section id="body">
+            <!-- home about -->
+            <section id="home">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <img class="w-25 rounded-circle" src="./photos/IWDY5554.JPG" alt="" id="home-logo" />
+                            <h4 class="text-light" id="home-logo-text">
+                                Classic Bazaar provides you <br />
+                                Trending dresses and Fashion Accessories
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- buy -->
+            <section id="order-page"></section>
+            <!-- details -->
+            <section id="details-page"></section>
+            <!-- featured products -->
+            <section id="featured-product">
+                <div class="container">
+                    <h1 class="text-white text-center pt-4">Featured products</h1>
+                    <hr style="height: 0.1em" />
+                    <div class="row products"></div>
+                </div>
+            </section>
+        </section>
+        <!-- footer  -->
+        <footer class="bg-success" id="footer">
+            <div class="container">
+                <h1 class="text-center pt-4 pt-3 text-white">Feedback</h1>
+                <div class="row">
+                    <!-- feedback -->
+                    <form class="mb-5 ord" id="feedback-form-1">
+                        <div class="col-12">
+                            <input
+                                required
+                                type="text"
+                                name="name"
+                                placeholder="Name"
+                                class="form-control mt-3"
+                                aria-label="text"
+                            />
+                        </div>
+                        <div class="col-12">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                class="form-control mt-3"
+                                aria-label="email"
+                                required
+                            />
+                        </div>
+                        <div class="col-12">
+                            <input
+                                type="text"
+                                name="feedback"
+                                placeholder="feedback"
+                                class="form-control mt-3"
+                                aria-label="text "
+                                required
+                            />
+                        </div>
+
+                        <div class="col-12">
+                            <input
+                                type="submit"
+                                placeholder="Send"
+                                class="form-control btn btn-light align-items-center mt-3"
+                                aria-label="submit"
+                            />
+                        </div>
+                    </form>
+                    <hr style="color: rgb(0, 0, 0); height: 0.1em" />
+                    <!-- address -->
+                    <div class="col-md-4 col-12 mb-3">
+                        <h3>Where are we</h3>
+                        <hr style="width: 3em; height: 0.1em" />
+                        <br />
+                        <h4>
+                            <span class="text-dark">C</span><span class="text-light">l</span><span class="text-dark">a</span
+                            ><span class="text-light">s</span><span class="text-dark">s</span
+                            ><span class="text-light">i</span><span class="text-dark">c</span
+                            ><span class="text-light"> B</span><span class="text-dark">a</span
+                            ><span class="text-light">z</span><span class="text-dark">a</span
+                            ><span class="text-light">a</span><span class="text-dark">r</span>
+                        </h4>
+                        <p class="text-white">
+                            kerala,kasargod,po balal 671533 <br />
+                            kialpschool kallanchira <br />
+                            Kāsaragod District Kerala <br />
+                            India - 671533
+                        </p>
+                    </div>
+                    <!-- email and phone -->
+                    <div class="col-md-4 col-12 mb-3">
+                        <h3>Reach Us</h3>
+                        <hr style="width: 3em; height: 0.1em" />
+                        <br />
+                        <i class="fa-solid fa-phone"></i>
+                        <a
+                            href="tel:+91**********5369"
+                            class="text-white text-decoration-none"
+                            data-websiteid="1368741"
+                            title="call +91**********5369"
+                            data-type="phone"
+                        >
+                            +91 **********5369
+                        </a>
+                        <br />
+                        <i class="fa-solid fa-envelope"></i>
+                        <a
+                            href="mailto:a*************@g*****.com"
+                            title="mail to a*************@g*****.com"
+                            class="text-white text-decoration-none"
+                            data-websiteid="1368741"
+                            data-type="email"
+                        >
+                            a*************@g*****.com
+                        </a>
+                    </div>
+                    <!-- links -->
+                    <div class="col-md-4 col-12 mb-5">
+                        <h3>Links</h3>
+                        <hr style="width: 3em; height: 0.1em" />
+                        <br />
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href="https://chat.whatsapp.com/F9y93ztDf9f25DmhOyZmea" class="text-decoration-none text-white"
+                            >Whatsapp</a
+                        >
+                        <br />
+                        <i class="fa-brands fa-youtube"></i>
+                        <a href="#" class="text-decoration-none text-white">Youtube</a>
+                        <br />
+                        <i class="fa-brands fa-instagram"></i>
+                        <a
+                            href="https://www.instagram.com/classic_bazaar/?igshid=MzRlODBiNWFlZA=="
+                            class="text-decoration-none text-white"
+                            >instagram</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            $("#feedback-form-1").submit((e) => {
+                e.preventDefault();
+                $.ajax({
+                    url: "https://script.google.com/macros/s/AKfycbwPWsNDOtC0z6QJ6tKIF6mg-SdzBWKs9IoT27_LsvPszCXmfr-WedNCW5vrfdZCTiax/exec",
+                    data: $("#feedback-form-1").serialize(),
+                    method: "post",
+                    success: function (response) {
+                        alert("Thankyou for your Feedback");
+                        window.location.reload();
+                        //window.location.href="https://google.com"
+                    },
+                    error: function (err) {
+                        alert("Something Error");
+                    },
+                });
+            });
+        </script>
+    </body>
+    <script src="./files/jquery/jquery.js"></script>
+    <script src="./files/js/bootstrap.bundle.js"></script>
+    <script src="./files/popper/popper.js"></script>
+    <script src="./js files/products.js"></script>
+    <script src="./js files/script.js"></script>
+</html>

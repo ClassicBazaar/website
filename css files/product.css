@@ -1,0 +1,37 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+#home {
+    background-color: rgb(167, 160, 160);
+    height: 12em;
+    padding-top: 7em;
+    color: white;
+}
+#bags {
+    background-color: grey;
+}
+#gadgets {
+    background-color: grey;
+}
+#accessories {
+    background-color: grey;
+}
+#daily {
+    background-color: grey;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#select::-webkit-scrollbar{
+    display: none;
+}
+.details-section::-webkit-scrollbar{
+    display: none;
+}
