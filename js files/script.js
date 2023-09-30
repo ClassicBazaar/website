@@ -32,7 +32,7 @@ function order(id) {
     buypage.innerHTML += `
         <section class="bg-dark position-fixed" style="top: 11%; width: 80%; left: 10%; right: 10%; z-index: 11">
             <div class="container">
-                <form  action="https://script.google.com/macros/s/AKfycbwqW6sGPdfSSFuicqRMFY0z9ry6gJY3TtLR7tOBuoLbzQfdt6H22RkBx31y4ryv_AD6sQ/exec" method="post" class="order-pop">
+                <form  action="https://script.google.com/macros/s/AKfycbxf-lBYIsMBjUr7PkjzAvItbLzAUvST27NDZwXwvi_TXeJ_St3yApAK4wW5PH6S34d9ZQ/exec" method="post" class="order-pop">
                     <div class="row">
                         <!-- heading -->
                         <div class="col-10">
