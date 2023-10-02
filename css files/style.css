@@ -25,6 +25,12 @@ body::-webkit-scrollbar {
 #select::-webkit-scrollbar {
     display: none;
 }
-.details-section::-webkit-scrollbar{
+.details-section::-webkit-scrollbar {
     display: none;
+}
+.order-page-scroll::-webkit-scrollbar {
+    display: none;
+}
+.hide-scroll::-webkit-scrollbar{
+display: none;
 }

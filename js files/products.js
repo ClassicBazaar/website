@@ -2,7 +2,7 @@
 const featured = [
     {
         id: 0,
-        title: "Tending black shirt for men",
+        title: "Trending black shirt for men",
         price: "₹400.00",
         image: "./photos/tending black shirt.jpeg",
         subimage: {

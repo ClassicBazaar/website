@@ -35,3 +35,9 @@ body::-webkit-scrollbar{
 .details-section::-webkit-scrollbar{
     display: none;
 }
+.order-page-scroll::-webkit-scrollbar {
+    display: none;
+}
+.hide-scroll::-webkit-scrollbar{
+display: none;
+}
