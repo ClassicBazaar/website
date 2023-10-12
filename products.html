@@ -353,6 +353,22 @@
                     },
                 });
             });
+            function orderpop(o) {
+                o.preventDefault();
+                $.ajax({
+                    url: "https://script.google.com/macros/s/AKfycbz9QbceTmx4VhMCJwijOlGoOJZHb_J7zPjSkD8CbUZCheePgAkTXm5SztD4VAqJD6h6yg/exec",
+                    data: $("#order-pop").serialize(),
+                    method: "post",
+                    success: function (response) {
+                        alert("order placed successfully");
+                        window.location.reload();
+                        //window.location.href="https://google.com"
+                    },
+                    error: function (err) {
+                        alert("Something Error please check your internet connection");
+                    },
+                });
+            }
         </script>
     </body>
     <script src="./files/jquery/jquery.js"></script>
