@@ -1937,8 +1937,8 @@ function gadgetsbuyf(id) {
 >
     <div class="container">
         <form
-            action="https://script.google.com/macros/s/AKfycbz9QbceTmx4VhMCJwijOlGoOJZHb_J7zPjSkD8CbUZCheePgAkTXm5SztD4VAqJD6h6yg/exec"
-            method="post"
+            id="order-pop"
+            onsubmit="orderpop(event)"
             class="order-pop"
         >
             <div class="row">
