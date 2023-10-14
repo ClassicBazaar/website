@@ -489,7 +489,6 @@ ${product.title}</textarea
                         id="button-submit"
                         class="btn bg-white text-dark form-control submit"
                         placeholder="Order"
-                        onclick="pop()"
                     />
                 </div>
             </div>
@@ -601,7 +600,3 @@ function change(smallimage) {
 let buybutton = document.querySelector(".buy-button");
 buybutton.addEventListener("click", closedetail);
 
-function pop(e) {
-    alert("Order placed successfully");
-    e.preventDefault();                                                                                                                         
-}
