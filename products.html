@@ -10,6 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body class="bg-dark">
+        <div id="loading"></div>
         <header class="text-white position-fixed" style="width: 100%; background-color: rgb(0 0 0 / 50%); z-index: 11">
             <div class="container-fluid">
                 <div class="row">
@@ -369,6 +370,10 @@
                     },
                 });
             }
+            var loading = document.getElementById("loading");
+            window.addEventListener("load", function () {
+                loading.style.display = "none";
+            });
         </script>
     </body>
     <script src="./files/jquery/jquery.js"></script>
